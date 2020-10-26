@@ -46,27 +46,23 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource {
                 cell.textLabel?.text = titles[indexPath.row]
                 cell.detailTextLabel?.text = sub[indexPath.row]
                 cell.imageView?.image = UIImage(named: "\(indexPath.row)")
-//            let rightView = UIView(frame: CGRect(x: 0, y: 33, width: 10, height: 10))
-////            rightView.backgroundColor = UIColor(red: 247, green: 72, blue: 132, alpha: 1)
-//            rightView.backgroundColor = .blue
-//            rightView.layer.cornerRadius = 7
-//                cell.accessoryView = rightView
-            cell.rightImage.image = UIImage(named: "checkboxCircleLine1")
+           
+                cell.rightImage.image = UIImage(named: "checkboxCircleLine1")
             
-            switch indexPath.row {
-            case 2:
-                cell.rightView.backgroundColor = UIColor(red: 247/255, green: 72/255, blue: 132/255, alpha: 1)
-                break
-            case 3:
-                cell.rightView.backgroundColor = UIColor(red: 71/255, green: 106/255, blue: 249/255, alpha: 1)
-                break
-            case 4:
-                cell.rightView.backgroundColor = UIColor(red: 237/255, green: 51/255, blue: 192/255, alpha: 1)
-                break
-            default:
-                cell.rightView.backgroundColor = .brown
+                switch indexPath.row {
+                    case 2:
+                        cell.rightView.backgroundColor = UIColor(red: 247/255, green: 72/255, blue: 132/255, alpha: 1)
+                        break
+                    case 3:
+                        cell.rightView.backgroundColor = UIColor(red: 71/255, green: 106/255, blue: 249/255, alpha: 1)
+                        break
+                    case 4:
+                        cell.rightView.backgroundColor = UIColor(red: 237/255, green: 51/255, blue: 192/255, alpha: 1)
+                        break
+                    default:
+                        cell.rightView.backgroundColor = .brown
             }
-                return cell
+                    return cell
         }
         else
             {

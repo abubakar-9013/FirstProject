@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		184F9011254365E200FAA6E7 /* secondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F9010254365E200FAA6E7 /* secondTableViewCell.swift */; };
+		184F9014254405E000FAA6E7 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F9013254405E000FAA6E7 /* Gradients.swift */; };
 		18D6B7562542B90700B29CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6B7552542B90700B29CD3 /* AppDelegate.swift */; };
 		18D6B7582542B90700B29CD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6B7572542B90700B29CD3 /* SceneDelegate.swift */; };
 		18D6B75A2542B90700B29CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6B7592542B90700B29CD3 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		184F9010254365E200FAA6E7 /* secondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTableViewCell.swift; sourceTree = "<group>"; };
+		184F9013254405E000FAA6E7 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		18D6B7522542B90700B29CD3 /* First_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D6B7552542B90700B29CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D6B7572542B90700B29CD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				18D6B76B2542DFAA00B29CD3 /* Designables.swift */,
+				184F9013254405E000FAA6E7 /* Gradients.swift */,
 				18D6B7722542E5E800B29CD3 /* Fonts */,
 				18D6B77C2542EC4E00B29CD3 /* Extensions.swift */,
 			);
@@ -194,6 +197,7 @@
 			files = (
 				18D6B77D2542EC4E00B29CD3 /* Extensions.swift in Sources */,
 				18D6B75A2542B90700B29CD3 /* ViewController.swift in Sources */,
+				184F9014254405E000FAA6E7 /* Gradients.swift in Sources */,
 				18D6B7842542F76700B29CD3 /* tableViewData.swift in Sources */,
 				184F9011254365E200FAA6E7 /* secondTableViewCell.swift in Sources */,
 				18D6B76C2542DFAA00B29CD3 /* Designables.swift in Sources */,

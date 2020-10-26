@@ -135,17 +135,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UI UX Specialist at Movo Agency" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="198-1G-qOQ">
-                                <rect key="frame" x="86" y="346" width="205" height="14"/>
+                                <rect key="frame" x="86" y="346" width="205" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="205" id="GET-0e-0Mw"/>
-                                    <constraint firstAttribute="height" constant="14" id="gPl-5y-vZj"/>
+                                    <constraint firstAttribute="height" constant="16" id="gPl-5y-vZj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="TTNorms-Regular" family="TT Norms" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAj-mb-T2N">
-                                <rect key="frame" x="37" y="390" width="302" height="55"/>
+                                <rect key="frame" x="37" y="392" width="302" height="55"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.28235294119999998" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="302" id="A8C-6K-aeV"/>
@@ -417,14 +417,17 @@
                     </view>
                     <connections>
                         <outlet property="detailLabel" destination="198-1G-qOQ" id="hny-ka-Uf1"/>
+                        <outlet property="leftSmallButton" destination="aSE-Re-cwJ" id="to0-l9-Cab"/>
                         <outlet property="myProfileLabel" destination="5QK-Lp-bWu" id="c6f-pZ-b9a"/>
                         <outlet property="nameLabel" destination="Hmt-5q-6ER" id="gZZ-gl-SYZ"/>
+                        <outlet property="premiumButton" destination="hAj-mb-T2N" id="oW8-IV-u9g"/>
+                        <outlet property="rightSmallButton" destination="0kf-q1-0XT" id="J7x-3R-Qev"/>
                         <outlet property="tableView" destination="8yu-Po-W2l" id="uQe-2j-4tR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="93.842364532019715"/>
+            <point key="canvasLocation" x="160.80000000000001" y="43.596059113300491"/>
         </scene>
     </scenes>
     <resources>

@@ -12,8 +12,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var detailLabel: UILabel!
     @IBOutlet weak var myProfileLabel: UILabel!
-    
     @IBOutlet weak var tableView: UITableView!
+    
+    
+    //UIViews Outlets
+    
+    @IBOutlet weak var leftSmallButton: UIButton!
+    @IBOutlet weak var rightSmallButton: UIButton!
+    @IBOutlet weak var premiumButton: UIButton!
+    
+    //Arrays
     
     let labelsArray     = tableViewData.labelArray
     let buttonTexts     = tableViewData.buttonText
@@ -23,11 +31,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-     
-//        
-//        nameLabel.setLineSpacing()
-//        detailLabel.setLineSpacing()
-//        myProfileLabel.setLineSpacing()
       
     }
 
